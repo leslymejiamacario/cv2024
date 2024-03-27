@@ -1,41 +1,5 @@
-<html lang="en">
-    <head>
- 
- <meta charset="UTF-8"
-     <title></title>
-<script src="https://kit.fontawesome.com/f9374172fe.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="estilos.css">
-          <link rel="stylesheet" href="estilo.css">
- <script defer src="java.js"></script>
-        
-    </head>
-<body backgroud="fondo2.jpeg">
-
-    <header class="header">
-        <nav class="nav">
-            <a href="Index.html" class="logo navml"><img class="avatar" src="foto.png"></a>
-            <button class="toggle"><i class="fa-solid fa-bars"></i>
-                </button>
-                <ul class="nav-menu">
-    <li class="nmi"><a href="info.html" class="nml navml">Datos personales</a></li>
-    <li class="nmi"><a href="Academia.html" class="nml navml">Formacion academica</a></li>
-   <li class="nmi"><a href="Laboral.html" class="nml navml">Laboral</a></li>
-                    </ul>
-                    </nav>
-                </header>
-
-<br>
-<br>
-                <main>
-
-    <center>
-        <p> <h1> <b> CURRICULUM VITAE </b> </h1></p>
-        <p> <h3> Lesly Tomasa Yolanda Mejía Macario </h3> </p>
-<br>
-        <img src="foto1.jpg" width=175 alt="Mi imagen" style="float:center;" >
-        <br>
-<br>
-    </center>
-         </main>
-</body>
-</html>
+const toggle = document.querySelector(".toggle")
+const navMenu = document.querySelector(".nav-menu")
+toggle.addEventListener("click",()=>{
+    navMenu.classList.toggle("nav-menvi");
+});
